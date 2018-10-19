@@ -8,7 +8,7 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>UNIITED BROKERS REALTY</h1>
+                <h1>UNITED BROKERS REALTY</h1>
                 <p>Our professional staff is ready to help you with all your Real Estate needs
                 including Escrow and Mortgage services. We serve all areas, especially
                 L.A. and Orange County.</p>
