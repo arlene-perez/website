@@ -10,14 +10,12 @@ const Header = (props) => (
             <div className="inner">
                 <h1>UNITED BROKERS REALTY</h1>
                 <p>Our professional staff is ready to help you with all your Real Estate needs
-                including Escrow and Mortgage services. We serve all areas, especially
-                L.A. and Orange County.</p>
+                including Escrow and Mortgage services. We serve all areas, especially in
+                L.A. and Orange County. We speak Spanish and English.</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Homes For Sale</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Agents</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About Us</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
