@@ -23,7 +23,7 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <div>
-            <p>1493 N Montebello Blvd  <br /> Montebello, CA 90640  <br /> (562) 254-5457</p>
+            <p>1493 N Montebello Blvd  <br /> Montebello, CA 90640  <br /> (562) 254-5457 <br /> martin@martinph.com</p>
           </div>
           {close}
         </article>
