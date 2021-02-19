@@ -21,10 +21,7 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
-          <div>
-            <p>1493 N Montebello Blvd  <br /> Montebello, CA 90640  <br /> (562) 254-5457 <br /> martin@martinph.com</p>
-          </div>
+          <a href="https://www.ubrealtor.com/">Visit our new website!</a>
           {close}
         </article>
       </div>
