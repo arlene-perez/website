@@ -20,10 +20,7 @@ class Main extends React.Component {
     // </article>
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <a href="https://www.ubrealtor.com/">Visit our new website!</a>
-          {close}
-        </article>
+        <a href="https://www.ubrealtor.com/">Visit our new website!</a>
       </div>
     )
   }
