@@ -14,11 +14,7 @@ const Header = (props) => (
                 L.A. and Orange County. We speak Spanish and English.</p>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
+        <a href="https://www.ubrealtor.com/">Visit our new website!</a>
     </header>
 )
 
